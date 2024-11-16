@@ -1,0 +1,177 @@
+.container {
+
+}
+
+.listTitleSection {
+    padding: 4rem 2rem;
+}
+
+.listTitle {
+    font-size: 1.5rem;
+}
+
+.listSection {
+    position: relative;
+}
+
+.btnToggleViewMode {
+    position: absolute;
+    right: 2vw;
+    top: calc(-2vw - 1.5em);
+}
+
+.btnToggleViewMode svg {
+    width: 2em;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    margin-left: -1px;
+}
+
+.book {
+    border: 1px solid var(--color-accent);
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 2vw;
+}
+
+.bookImg {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 300 / 500;
+}
+
+.bookImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    transition: transform .3s ease-in-out;
+}
+
+.bookImg:hover img {
+    transform: scale(1.07);
+}
+
+.bookRank {
+    margin: 1em 0;
+}
+
+.bookTitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+}
+
+.bookAuthor {
+
+}
+
+.bookDescription {
+    margin: 1em 0 3em;
+}
+
+.btnBuy {
+    font-size: 0.938rem;
+    background: #fff;
+    padding: 0.8em 2.5em;
+    width: 10em;
+    border: 1.5px solid var(--color-accent);
+    border-radius: 100vw;
+    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.btnBuy:hover {
+    border-style: dashed;
+}
+
+.buySection {
+    position: relative;
+    font-size: 0.938rem;
+}
+
+.overlay {
+
+}
+
+.buyLinkBox {
+    position: absolute;
+    left: 11.5em;
+    top: 0;
+    width: max-content;
+    border: 1.5px solid var(--color-accent);
+    background-color: #fff;
+    padding: 1rem;
+    z-index: 2;
+}
+
+.buyLinkBox li {
+    margin-bottom: 1em;
+}
+
+/* list view */
+.listView {
+    display: block;
+}
+
+.listView .book {
+    display: flex;
+    align-items: flex-start;
+    gap: 2vw;
+    border-left: none;
+    border-right: none;
+}
+
+.listView .bookImg {
+    width: 200px;
+}
+
+/* responsive */
+@media screen and (max-width: 2000px) {
+    .wrapper {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .wrapper {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .btnToggleViewMode {
+        right: 5vw;
+        top: calc(-5vw - 1.5em);
+    }
+
+    .book {
+        padding: 5vw;
+    }
+
+    .listView .book {
+        gap: 5vw;
+    }
+
+    .listView .bookImg {
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}

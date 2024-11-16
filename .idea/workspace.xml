@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a3eba6-e6e1-4280-a517-593c5766483e" name="Changes" comment="" />
+    <list default="true" id="15a3eba6-e6e1-4280-a517-593c5766483e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/(book)/list/[id]/error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(book)/list/[id]/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(book)/list/[id]/not-found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(book)/list/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(home)/error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(home)/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(home)/not-found.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(home)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/about/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/book-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/book-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/navigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/icon-grid-view.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/icon-list-view.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/icon-loading.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/about.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/layout.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/list.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/loading.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/navigation.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/GeistMonoVF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/GeistVF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +57,17 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2opwtaW91vNyYSUGSKTq9Rr0stz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,13 +75,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/yejin/Documents/dev/next-newyork-times-bestsellers",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/yejin/Documents/dev/next-newyork-times-bestsellers/app/about",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/yejin/Documents/dev/next-newyork-times-bestsellers/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/about" />
+      <recent name="$PROJECT_DIR$/app/(home)" />
+      <recent name="$PROJECT_DIR$/app/(book)/list/[id]" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/(book)" />
+      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/app/(home)" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -46,10 +116,24 @@
       <option name="presentableId" value="Default" />
       <updated>1731580040535</updated>
       <workItem from="1731580041581" duration="272000" />
+      <workItem from="1731580532830" duration="4860000" />
+      <workItem from="1731588107034" duration="20645000" />
+      <workItem from="1731719331042" duration="23188000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

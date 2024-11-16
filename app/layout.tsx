@@ -1,17 +1,23 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
+import Navigation from "@/app/components/navigation";
+import {Fredoka, Josefin_Sans} from "next/font/google";
+import "@/styles/reset.css";
+import "@/styles/global.css";
+import styles from "@/styles/layout.module.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const fredoka = Fredoka({
+  weight: ['300', '400', '500', '600', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-fredoka',
+})
+
+const josefinSans = Josefin_Sans({
+  weight: ['100', '200', '300', '400', '500', '600', '700'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-josefinSans',
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,10 +31,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${fredoka.variable} ${josefinSans.variable}`}>
+        <div className={styles.container}>
+          <Navigation />
+          <main className={styles.content}>
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   );

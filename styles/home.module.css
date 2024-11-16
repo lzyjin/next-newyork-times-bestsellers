@@ -1,0 +1,45 @@
+.container {
+    padding: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.total {
+    margin-bottom: 1em;
+}
+
+.item {
+    padding: 1.7em;
+    cursor: pointer;
+    border: 1px solid var(--color-accent);
+    margin-top: -1px;
+    margin-right: -1px;
+    line-height: 1;
+    transition: background-color .2s ease-in-out;
+}
+
+.item:hover {
+    background-color: var(--color-accent);
+    color: var(--color-base);
+}
+
+.itemTitle {
+    font-size: 1.25rem;
+}
+
+.itemDate {
+    color: var(--color-secondary);
+    font-weight: 300;
+}
+
+.itemUpdated {
+    font-weight: 300;
+    color: var(--color-secondary);
+}
+
+.itemUpdated span {
+    font-weight: 400;
+}

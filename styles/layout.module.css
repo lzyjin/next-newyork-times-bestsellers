@@ -1,0 +1,14 @@
+.container {
+
+}
+
+.content {
+    width: 100%;
+    margin-top: 72px;
+}
+
+@media screen and (max-width: 800px) {
+    .content {
+        margin-top: 10vw;
+    }
+}
