@@ -76,8 +76,8 @@
 .btnBuy {
     font-size: 0.938rem;
     background: #fff;
-    padding: 0.8em 2.5em;
-    width: 10em;
+    padding: 0.8em 0;
+    width: 9.5em;
     border: 1.5px solid var(--color-accent);
     border-radius: 100vw;
     transition: color .3s ease-in-out, background-color .3s ease-in-out;
@@ -98,9 +98,8 @@
 
 .buyLinkBox {
     position: absolute;
-    left: 11.5em;
+    left: 11em;
     top: 0;
-    width: max-content;
     border: 1.5px solid var(--color-accent);
     background-color: #fff;
     padding: 1rem;
@@ -129,36 +128,81 @@
 }
 
 /* responsive */
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 2300px) {
     .wrapper {
         grid-template-columns: repeat(5, minmax(0, 1fr));
     }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1920px) {
     .wrapper {
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
     .wrapper {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
     .wrapper {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .listTitleSection {
+        padding: 10vw 5vw;
+    }
+
+    .listTitle {
+        font-size: 3.2vw;
     }
 
     .btnToggleViewMode {
         right: 5vw;
-        top: calc(-5vw - 1.5em);
+        top: calc(-5vw - 1em);
+    }
+
+    .btnToggleViewMode svg {
+        width: 4.5vw;
     }
 
     .book {
         padding: 5vw;
+        font-size: 2.5vw;
+    }
+
+    .bookTitle {
+        font-size: 3.2vw;
+    }
+
+    .buySection {
+        font-size: 2.5vw;
+    }
+
+    .btnBuy {
+        font-size: 2.5vw;
+        width: 100%;
+        padding: 0.7em 0;
+        border-width: 1px;
+    }
+
+    .buyLinkBox {
+        left: 9.5em;
+    }
+
+    .buyLinkBox {
+        left: 0;
+        top: auto;
+        bottom: 4em;
+        width: 100%;
+    }
+
+    .buyLinkBox li:last-child {
+        margin-bottom: 0;
     }
 
     .listView .book {
@@ -170,8 +214,12 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 520px) {
     .wrapper {
         grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .bookTitle{
+        font-size: 3.5vw;
     }
 }
