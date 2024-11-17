@@ -20,6 +20,7 @@ https://next-newyork-times-bestsellers.vercel.app
 - List: 분야별 베스트셀러 목록
 
 ## 📗 추가 기능
+- 리스트 검색
 - 목록 보기 모드 변경
 - 시스템에 따른 라이트/다크 모드 전환
 

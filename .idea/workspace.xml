@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a3eba6-e6e1-4280-a517-593c5766483e" name="Changes" comment="home, list 페이지 구현">
+    <list default="true" id="15a3eba6-e6e1-4280-a517-593c5766483e" name="Changes" comment="수정">
+      <change afterPath="$PROJECT_DIR$/app/components/list-categories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/book-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/book-list.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons/icon-nomadcoders.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icons/icon-nomadcoders.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/about.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/about.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/error.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/error.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(home)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(home)/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/list.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/list.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +92,7 @@
       <workItem from="1731580041581" duration="272000" />
       <workItem from="1731580532830" duration="4860000" />
       <workItem from="1731588107034" duration="20645000" />
-      <workItem from="1731719331042" duration="46629000" />
+      <workItem from="1731719331042" duration="50205000" />
     </task>
     <task id="LOCAL-00001" summary="home, list 페이지 구현">
       <option name="closed" value="true" />
@@ -118,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731847558686</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="수정">
+      <option name="closed" value="true" />
+      <created>1731849742034</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731849742034</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home, list 페이지 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="home, list 페이지 구현" />
+    <MESSAGE value="수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="수정" />
   </component>
 </project>

@@ -2,13 +2,33 @@
     padding: 2rem 2rem 5rem;
 }
 
-.wrapper {
+.info {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
 }
 
 .total {
-    margin-bottom: 1em;
+
+}
+
+.input {
+    border-radius: 0;
+    outline: none;
+    width: 10.5em;
+    padding: 0.2em 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--color-accent);
+    background-color: transparent;
+    color: var(--color-accent)
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .item {
@@ -54,7 +74,8 @@
         padding: 5vw;
     }
 
-    .total {
+    .total,
+    .input {
         font-size: 2.5vw;
     }
 
@@ -69,7 +90,8 @@
 
 @media screen and (max-width: 520px) {
     .total,
-    .item {
+    .item,
+    .input {
         font-size: 2.7vw;
     }
 }
