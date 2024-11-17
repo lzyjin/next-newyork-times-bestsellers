@@ -17,3 +17,13 @@
         font-size: 3.2vw;
     }
 }
+
+@media screen and (max-width: 520px) {
+    .container {
+        font-size: 2.7vw;
+    }
+
+    .h2 {
+        font-size: 3.4vw;
+    }
+}

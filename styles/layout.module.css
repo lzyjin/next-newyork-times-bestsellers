@@ -11,6 +11,6 @@
 @media screen and (max-width: 800px) {
     .content {
         padding-top: 10vw;
-        min-height: calc(100vh - 12vw);
+        min-height: calc(100vh - 15vw);
     }
 }

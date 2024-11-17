@@ -1,5 +1,6 @@
 .container {
-
+    width: 100%;
+    overflow: hidden;
 }
 
 .listTitleSection {
@@ -161,6 +162,10 @@
     .wrapper {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
+    .book:nth-child(even) {
+        border-right: none;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -202,6 +207,7 @@
 
     .buyLinkBox {
         left: 9.5em;
+        border-width: 1px;
     }
 
     .buyLinkBox {
@@ -229,7 +235,19 @@
 }
 
 @media screen and (max-width: 520px) {
-    .bookTitle{
-        font-size: 3.5vw;
+    .listTitle {
+        font-size: 3.4vw;
+    }
+
+    .btnToggleViewMode svg {
+        width: 5vw;
+    }
+
+    .book {
+        font-size: 2.7vw;
+    }
+
+    .bookTitle {
+        font-size: 3.7vw;
     }
 }

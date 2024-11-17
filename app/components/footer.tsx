@@ -7,7 +7,10 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p className={styles.copyright}>created by Kim Yejin</p>
-      <Link href="https://www.nytimes.com/books/best-sellers" className={`${styles.nytimes} hover-el`}>The New York Times</Link>
+      <Link
+        href="https://www.nytimes.com/books/best-sellers"
+        target="_blank"
+        className={`${styles.nytimes} hover-el`}>The New York Times</Link>
       <nav>
         <ul className={styles.links}>
           <li className={styles.link}>

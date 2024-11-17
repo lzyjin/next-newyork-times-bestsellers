@@ -18,14 +18,8 @@ export default function BookList({books}: {books: IBook[]}) {
   return (
     <section className={styles.listSection}>
       <button className={styles.btnToggleViewMode} onClick={toggleViewMode}>
-        {
-          isGridView ?
-            <IconListView/> :
-            <IconGridView/>
-        }
+        { isGridView ? <IconListView/> : <IconGridView/> }
       </button>
-
-      <div>isGridView: {isGridView}</div>
       <div className={`${styles.wrapper} ${!isGridView && styles.listView}`}>
         {
           books.map(book => (
