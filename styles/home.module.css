@@ -1,5 +1,5 @@
 .container {
-    padding: 2rem;
+    padding: 2rem 2rem 5rem;
 }
 
 .wrapper {
@@ -13,13 +13,17 @@
 
 .item {
     font-size: 1.25rem;
-    padding: 1.5em;
     cursor: pointer;
     border: 1px solid var(--color-accent);
     margin-top: -1px;
     margin-right: -1px;
     line-height: 1;
     transition: background-color .2s ease-in-out;
+}
+
+.item>a {
+    display: block;
+    padding: 1.5em;
 }
 
 .item:hover {
@@ -56,6 +60,9 @@
 
     .item {
         font-size: 2.5vw;
+    }
+
+    .item>a {
         padding: 1.2em;
     }
 }

@@ -12,7 +12,7 @@ export default function BookItem({book}: {book: IBook}) {
 
   return (
     <div className={styles.book}>
-      <Link href={book.amazon_product_url} target="_blank">
+      <Link href={book.amazon_product_url ?? "javascript:;"} target={book.amazon_product_url ? "_blank" : "_self"}>
         <div className={styles.bookImg}>
           <Image src={book.book_image} alt={book.title} width={book.book_image_width} height={book.book_image_height}/>
         </div>
@@ -37,7 +37,7 @@ export default function BookItem({book}: {book: IBook}) {
                   {
                     book.buy_links.map(link => (
                       <li key={link.name}>
-                        <Link href={link.url} target="_blank">{link.name}</Link>
+                        <Link href={link?.url} target="_blank">{link.name}</Link>
                       </li>
                     ))
                   }

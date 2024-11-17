@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
-import Navigation from "@/app/components/navigation";
+import Header from "@/app/components/header";
 import {Fredoka, Josefin_Sans} from "next/font/google";
 import "@/styles/reset.css";
 import "@/styles/global.css";
 import styles from "@/styles/layout.module.css";
+import Footer from "@/app/components/footer";
+// import RecoilRootWrapper from "@/app/components/recoil-root-wrapper";
 
 const fredoka = Fredoka({
   weight: ['300', '400', '500', '600', '700'],
@@ -30,15 +32,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${fredoka.variable} ${josefinSans.variable}`}>
-        <div className={styles.container}>
-          <Navigation />
-          <main className={styles.content}>
-            {children}
-          </main>
-        </div>
-      </body>
-    </html>
+    // <RecoilRootWrapper>
+      <html lang="en">
+        <body className={`${fredoka.variable} ${josefinSans.variable}`}>
+          <div className={styles.container}>
+            <Header/>
+            <main className={styles.content}>
+              {children}
+            </main>
+            <Footer/>
+          </div>
+        </body>
+      </html>
+    // </RecoilRootWrapper>
   );
 }

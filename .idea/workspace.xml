@@ -5,16 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15a3eba6-e6e1-4280-a517-593c5766483e" name="Changes" comment="home, list 페이지 구현">
+      <change afterPath="$PROJECT_DIR$/app/components/footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/recoil-root-wrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atoms.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-ssr.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/icon-github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/icon-nomadcoders.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/error.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(book)/list/[id]/error.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/error.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(book)/list/[id]/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/loading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(book)/list/[id]/not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/not-found.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(home)/error.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(home)/loading.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(home)/not-found.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(home)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(home)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/loading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/book-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/book-item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/book-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/book-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/error.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/error.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/not-found.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/about.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/about.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/layout.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/list.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/list.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +45,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lzyjin"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:lzyjin/next-newyork-times-bestsellers.git",
+    "accountId": "951ee377-d41b-40c4-9bf9-cffbd794034d"
+  }
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -60,11 +90,11 @@
       <recent name="$PROJECT_DIR$/app/(book)/list/[id]" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hooks" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/(book)" />
       <recent name="$PROJECT_DIR$/styles" />
-      <recent name="$PROJECT_DIR$/app/(home)" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -86,7 +116,7 @@
       <workItem from="1731580041581" duration="272000" />
       <workItem from="1731580532830" duration="4860000" />
       <workItem from="1731588107034" duration="20645000" />
-      <workItem from="1731719331042" duration="26578000" />
+      <workItem from="1731719331042" duration="44415000" />
     </task>
     <task id="LOCAL-00001" summary="home, list 페이지 구현">
       <option name="closed" value="true" />

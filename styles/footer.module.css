@@ -1,0 +1,37 @@
+.footer {
+    background-color: var(--color-accent);
+    color: var(--color-base);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright,
+.nytimes {
+    font-size: 0.75rem;
+}
+
+.nytimes::after {
+    background-color: var(--color-base);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.link {
+
+}
+
+.link svg {
+    width: 1.8em;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        padding: 3vw 5vw;
+    }
+}

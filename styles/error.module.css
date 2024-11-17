@@ -1,0 +1,19 @@
+.container {
+    padding: 2em;
+}
+
+.h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.7em;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        padding: 5vw;
+        font-size: 2.5vw;
+    }
+
+    .h2 {
+        font-size: 3.2vw;
+    }
+}

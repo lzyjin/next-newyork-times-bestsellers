@@ -22,8 +22,6 @@ export default async function HomePage() {
             <div key={list.list_name} className={styles.item}>
               <Link href={`/list/${encodingListName(list.list_name)}`} prefetch={true}>
                 <p className={styles.itemTitle}>{list.display_name}</p>
-                {/*<p className={styles.itemUpdated}>updated <span>{list.updated}</span></p>*/}
-                {/*<p className={styles.itemDate}>{list.oldest_published_date} ~ {list.newest_published_date}</p>*/}
               </Link>
             </div>
           ))

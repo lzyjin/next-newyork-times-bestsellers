@@ -12,7 +12,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-
+      --color-base: #1285c5;
+      --color-accent: #f8f6ed;
   }
 }
 
@@ -22,4 +23,29 @@ body {
     /*font-family: var(--font-fredoka), sans-serif;*/
     font-family: var(--font-josefinSans), sans-serif;
     font-weight: 400;
+}
+
+.hover-el {
+    position: relative;
+    padding: 0.3em 0;
+}
+
+.hover-el::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--color-accent);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+@media (hover) {
+    .hover-el:hover::after {
+        transform: scaleX(1);
+        transform-origin: left center;
+    }
 }

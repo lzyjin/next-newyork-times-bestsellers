@@ -32,7 +32,7 @@ export interface IBook {
   book_image: string;
   book_image_width: number;
   book_image_height: number;
-  amazon_product_url: string;
+  amazon_product_url: string | null;
   age_group: string;
   book_review_link: string;
   first_chapter_link: string;

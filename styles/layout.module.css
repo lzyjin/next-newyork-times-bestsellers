@@ -1,14 +1,16 @@
 .container {
-
+    min-height: 100vh;
 }
 
 .content {
     width: 100%;
-    margin-top: 72px;
+    padding-top: 72px;
+    min-height: calc(100vh - 100px);
 }
 
 @media screen and (max-width: 800px) {
     .content {
-        margin-top: 10vw;
+        padding-top: 10vw;
+        min-height: calc(100vh - 12vw);
     }
 }

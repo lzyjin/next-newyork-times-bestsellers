@@ -3,7 +3,7 @@
 }
 
 .listTitleSection {
-    padding: 4rem 2rem;
+    padding: 4rem 2rem 5rem;
 }
 
 .listTitle {
@@ -127,6 +127,17 @@
     width: 200px;
 }
 
+.listView .book>a+div {
+    flex: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+    .btnBuy,
+    .buyLinkBox {
+        color: var(--color-base);
+    }
+}
+
 /* responsive */
 @media screen and (max-width: 2300px) {
     .wrapper {
@@ -185,7 +196,6 @@
 
     .btnBuy {
         font-size: 2.5vw;
-        width: 100%;
         padding: 0.7em 0;
         border-width: 1px;
     }
@@ -198,7 +208,7 @@
         left: 0;
         top: auto;
         bottom: 4em;
-        width: 100%;
+        width: max-content;
     }
 
     .buyLinkBox li:last-child {
@@ -210,15 +220,15 @@
     }
 
     .listView .bookImg {
-        width: 20vw;
+        width: 25vw;
+    }
+
+    .listView .bookRank {
+        margin-top: 0;
     }
 }
 
 @media screen and (max-width: 520px) {
-    .wrapper {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
-
     .bookTitle{
         font-size: 3.5vw;
     }

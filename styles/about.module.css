@@ -1,0 +1,43 @@
+.container {
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+.h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.7em;
+}
+
+.desc {
+
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.link svg {
+    width: 1em;
+    margin-left: 0.5em;
+    transform: translateY(-1px);
+    display: none;
+}
+
+.link:hover {
+
+}
+.link:hover svg {
+    display: block;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        padding: 5vw;
+        font-size: 2.5vw;
+    }
+
+    .h2 {
+        font-size: 3.2vw;
+    }
+}
