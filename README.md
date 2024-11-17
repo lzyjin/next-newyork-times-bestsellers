@@ -1,8 +1,7 @@
 # 📚 The New York Times Best Seller Explorer
 <노마드코더 Next.js 시작하기> 졸업작품 코드 챌린지
-
-## 결과물
-https://next-newyork-times-bestsellers.vercel.app
+<br>
+[결과물 보러 가기](https://next-newyork-times-bestsellers.vercel.app)
 
 ## 📓 챌린지 목표
 - Next JS 프로젝트 생성
@@ -26,4 +25,4 @@ https://next-newyork-times-bestsellers.vercel.app
 
 ## 📘 새롭게 사용해 본 것
 - [Next.js에서 제공하는 Google Fonts](https://nextjs.org/docs/app/building-your-application/optimizing/fonts#google-fonts)
-- svg를 컴포넌트로 사용할 수 있는 [SVGR](https://react-svgr.com/)
+- svg를 컴포넌트로 사용할 수 있는 라이브러리 [SVGR](https://react-svgr.com/)
