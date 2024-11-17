@@ -8,4 +8,5 @@
 
 .wrapper svg {
     width: 7vw;
+    max-width: 100px;
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15a3eba6-e6e1-4280-a517-593c5766483e" name="Changes" comment="리스트 검색 기능 추가" />
+    <list default="true" id="15a3eba6-e6e1-4280-a517-593c5766483e" name="Changes" comment="메타데이터 수정, 이모지 파비콘 추가" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +87,7 @@
       <workItem from="1731580041581" duration="272000" />
       <workItem from="1731580532830" duration="4860000" />
       <workItem from="1731588107034" duration="20645000" />
-      <workItem from="1731719331042" duration="50540000" />
+      <workItem from="1731719331042" duration="50851000" />
     </task>
     <task id="LOCAL-00001" summary="home, list 페이지 구현">
       <option name="closed" value="true" />
@@ -121,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731853288731</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="메타데이터 수정, 이모지 파비콘 추가">
+      <option name="closed" value="true" />
+      <created>1731853618260</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731853618260</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +150,7 @@
     <MESSAGE value="home, list 페이지 구현" />
     <MESSAGE value="수정" />
     <MESSAGE value="리스트 검색 기능 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="리스트 검색 기능 추가" />
+    <MESSAGE value="메타데이터 수정, 이모지 파비콘 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="메타데이터 수정, 이모지 파비콘 추가" />
   </component>
 </project>
